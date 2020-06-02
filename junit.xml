@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="4" time="136.512">
+  <testsuite name="Contacts APP" errors="0" failures="4" skipped="0" timestamp="2020-05-25T19:33:52" time="62.056" tests="4">
+    <testcase classname="Contacts APP Should render Contact component" name="Contacts APP Should render Contact component" time="0.233">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;contact&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;loadProcess&quot;
+    &gt;
+      Loading...
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\config.js:34:12)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:71:38
+    at getByTestId (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:54:17)
+    at Object.&lt;anonymous&gt; (C:\Users\Mário Batalha\codenation\react-13\src\__tests__\submit.test.js:22:21)
+    at Object.asyncJestTest (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Contacts APP Should render Contacts component" name="Contacts APP Should render Contacts component" time="0.146">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;contacts&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;header
+        class=&quot;topbar&quot;
+      &gt;
+        &lt;div
+          class=&quot;container&quot;
+        &gt;
+          &lt;a
+            class=&quot;topbar__logo&quot;
+            href=&quot;/&quot;
+          &gt;
+            &lt;svg
+              alt=&quot;Logo Instagram&quot;
+            &gt;
+              logo.svg
+            &lt;/svg&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+      &lt;div
+        class=&quot;container&quot;
+      &gt;
+        &lt;section
+          class=&quot;filters&quot;
+        &gt;
+          &lt;div
+            class=&quot;filters__search&quot;
+          &gt;
+            &lt;input
+              class=&quot;filters__search__input&quot;
+              placeholder=&quot;Pesquisar&quot;
+              type=&quot;text&quot;
+              value=&quot;&quot;
+            /&gt;
+            &lt;button
+              class=&quot;filters__search__icon&quot;
+              type=&quot;submit&quot;
+            &gt;
+              &lt;i
+                class=&quot;fa fa-search&quot;
+              /&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;button
+            class=&quot;filters__item&quot;
+          &gt;
+            Nome 
+            &lt;i
+              class=&quot;fa fa-sort-down&quot;
+            /&gt;
+          &lt;/button&gt;
+          &lt;button
+            class=&quot;filters__item&quot;
+            type=&quot;submit&quot;
+          &gt;
+            País 
+            &lt;i
+              class=&quot;fa fa-sort-down&quot;
+            /&gt;
+          &lt;/button&gt;
+          &lt;button
+            class=&quot;filters__item&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Empresa 
+            &lt;i
+              class=&quot;fa fa-sort-down&quot;
+            /&gt;
+          &lt;/button&gt;
+          &lt;button
+            class=&quot;filters__item&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Departamento 
+            &lt;i
+              class=&quot;fa fa-sort-down&quot;
+            /&gt;
+          &lt;/button&gt;
+          &lt;button
+            class=&quot;filters__item&quot;
+            type=&quot;submit&quot;
+          &gt;
+            Data de admissão
+            &lt;i
+              class=&quot;fa fa-sort-down&quot;
+            /&gt;
+          &lt;/button&gt;
+        &lt;/section&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;loadProcess&quot;
+      &gt;
+        Loading...
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\config.js:34:12)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:71:38
+    at getByTestId (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:54:17)
+    at Object.&lt;anonymous&gt; (C:\Users\Mário Batalha\codenation\react-13\src\__tests__\submit.test.js:30:21)
+    at Object.asyncJestTest (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Contacts APP Should render Filters component" name="Contacts APP Should render Filters component" time="0.037">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;filters&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;container&quot;
+    &gt;
+      &lt;section
+        class=&quot;filters&quot;
+      &gt;
+        &lt;div
+          class=&quot;filters__search&quot;
+        &gt;
+          &lt;input
+            class=&quot;filters__search__input&quot;
+            placeholder=&quot;Pesquisar&quot;
+            type=&quot;text&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            class=&quot;filters__search__icon&quot;
+            type=&quot;submit&quot;
+          &gt;
+            &lt;i
+              class=&quot;fa fa-search&quot;
+            /&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;button
+          class=&quot;filters__item&quot;
+        &gt;
+          Nome 
+          &lt;i
+            class=&quot;fa fa-sort-down&quot;
+          /&gt;
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;filters__item&quot;
+          type=&quot;submit&quot;
+        &gt;
+          País 
+          &lt;i
+            class=&quot;fa fa-sort-down&quot;
+          /&gt;
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;filters__item&quot;
+          type=&quot;submit&quot;
+        &gt;
+          Empresa 
+          &lt;i
+            class=&quot;fa fa-sort-down&quot;
+          /&gt;
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;filters__item&quot;
+          type=&quot;submit&quot;
+        &gt;
+          Departamento 
+          &lt;i
+            class=&quot;fa fa-sort-down&quot;
+          /&gt;
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;filters__item&quot;
+          type=&quot;submit&quot;
+        &gt;
+          Data de admissão
+          &lt;i
+            class=&quot;fa fa-sort-down&quot;
+          /&gt;
+        &lt;/button&gt;
+      &lt;/section&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\config.js:34:12)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:71:38
+    at getByTestId (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:54:17)
+    at Object.&lt;anonymous&gt; (C:\Users\Mário Batalha\codenation\react-13\src\__tests__\submit.test.js:38:21)
+    at Object.asyncJestTest (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Contacts APP Should render Topbar component" name="Contacts APP Should render Topbar component" time="0.014">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;topbar&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;header
+      class=&quot;topbar&quot;
+    &gt;
+      &lt;div
+        class=&quot;container&quot;
+      &gt;
+        &lt;a
+          class=&quot;topbar__logo&quot;
+          href=&quot;/&quot;
+        &gt;
+          &lt;svg
+            alt=&quot;Logo Instagram&quot;
+          &gt;
+            logo.svg
+          &lt;/svg&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/header&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\config.js:34:12)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:71:38
+    at getByTestId (C:\Users\Mário Batalha\codenation\react-13\node_modules\@testing-library\dom\dist\query-helpers.js:54:17)
+    at Object.&lt;anonymous&gt; (C:\Users\Mário Batalha\codenation\react-13\src\__tests__\submit.test.js:46:21)
+    at Object.asyncJestTest (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Mário Batalha\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
